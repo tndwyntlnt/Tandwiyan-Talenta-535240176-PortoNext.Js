@@ -7,7 +7,7 @@ function WorkSection() {
             <Row className='mb-5 text-center'>
                 <Col md={8} className="mx-auto">
                     <h6 className="text-info text-uppercase fw-bold letter-spacing-2">Portfolio</h6>
-                    <h2 className="display-6 fw-bold">Recent Projects</h2>
+                    <h2 className="display-6 fw-bold text-dark">Recent Projects</h2>
                     <p className="text-muted">Berikut adalah beberapa proyek terbaik yang pernah saya kerjakan, mulai dari website e-commerce hingga aplikasi manajemen.</p>
                 </Col>
             </Row>
@@ -17,12 +17,12 @@ function WorkSection() {
                         <Card.Img variant="top" src="/images/1.png" style={{height: '200px', objectFit: 'cover'}} />
                         <Card.Body>
                             <div className="mb-2">
-                                <Badge bg="dark" className="me-1">Next.js</Badge>
-                                <Badge bg="info" className="me-1">Bootstrap</Badge>
+                                <Badge bg="dark" className="me-1">Gunung</Badge>
+                                <Badge bg="info" className="me-1">Party</Badge>
                             </div>
-                            <Card.Title className="fw-bold">E-Commerce Dashboard</Card.Title>
+                            <Card.Title className="fw-bold">Mendaki GUnung Bersama Teman</Card.Title>
                             <Card.Text className="text-muted small">
-                                Sistem manajemen stok dan penjualan barang dengan analisis grafik real-time.
+                                Ini merupakan foto setelah saya mendaki gunung bersama teman-teman.
                             </Card.Text>
                             <Button variant="outline-dark" size="sm" className="w-100 mt-2">View Details</Button>
                         </Card.Body>
@@ -34,12 +34,12 @@ function WorkSection() {
                         <Card.Img variant="top" src="/images/2.png" style={{height: '200px', objectFit: 'cover'}} />
                         <Card.Body>
                             <div className="mb-2">
-                                <Badge bg="primary" className="me-1">React</Badge>
-                                <Badge bg="warning" text="dark" className="me-1">Firebase</Badge>
+                                <Badge bg="primary" className="me-1">Beli</Badge>
+                                <Badge bg="warning" text="dark" className="me-1">Pancingan</Badge>
                             </div>
-                            <Card.Title className="fw-bold">Coffee Shop App</Card.Title>
+                            <Card.Title className="fw-bold">Membeli Pancingan</Card.Title>
                             <Card.Text className="text-muted small">
-                                Aplikasi pemesanan kopi berbasis web dengan fitur membership dan loyalty points.
+                                Ini merupakan foto saat saya membeli pancingan di toko alat pancing.
                             </Card.Text>
                             <Button variant="outline-dark" size="sm" className="w-100 mt-2">View Details</Button>
                         </Card.Body>
@@ -51,12 +51,12 @@ function WorkSection() {
                         <Card.Img variant="top" src="/images/3.png" style={{height: '200px', objectFit: 'cover'}} />
                         <Card.Body>
                             <div className="mb-2">
-                                <Badge bg="danger" className="me-1">Laravel</Badge>
-                                <Badge bg="success" className="me-1">Vue</Badge>
+                                <Badge bg="danger" className="me-1">Mancing</Badge>
+                                <Badge bg="success" className="me-1">Date</Badge>
                             </div>
-                            <Card.Title className="fw-bold">Company Profile</Card.Title>
+                            <Card.Title className="fw-bold">Mancing</Card.Title>
                             <Card.Text className="text-muted small">
-                                Website profil perusahaan konstruksi dengan fitur galeri proyek dinamis.
+                                foto ini diambil saat saya sedang memancing ikan di sungai bersama.
                             </Card.Text>
                             <Button variant="outline-dark" size="sm" className="w-100 mt-2">View Details</Button>
                         </Card.Body>
